@@ -7,6 +7,9 @@ main {
     padding: 0;
     text-align: center;
     font-size: 0;
+   
+   
+
 }
 .image1 {
     display: inline-block;
@@ -15,6 +18,7 @@ main {
     font-size: x-large;
     width: 236px;
     height: 421px;
+    vertical-align: middle;
 }
 
 .image2 {
@@ -24,6 +28,7 @@ main {
     font-size: x-large;
     width: 236px;
     height: 421px;
+    vertical-align: middle;
     
 }
 .image3 {
@@ -33,6 +38,8 @@ main {
     font-size: x-large;
     width: 236px;
     height: 421px;
+    vertical-align: middle;
+   
     }
 .image4 {
     display: inline-block;
@@ -41,6 +48,7 @@ main {
     font-size: x-large;
     width: 236px;
     height: 421px;
+    vertical-align: middle;
 }
 .anchor, .diamond, .eyeglasses, .monitor {
     padding: 56px;
@@ -71,10 +79,11 @@ padding: 0px;
 margin-top: 35px;
 }
 h6 {
+    
     border: 2px solid red;
-    width: 513px;
+    width: 525px;
 height: 65px;
-font-size: 18px;
+font-size: 17px;
 line-height: 30px;
 color: #999999;
 font-weight: 400;
@@ -82,4 +91,7 @@ font-family: "PT Sans";
 text-align: center;
 padding: 0px;
 margin-top: 35px;
+margin-left: auto;
+margin-right: auto;
+text-transform: uppercase;
 }
