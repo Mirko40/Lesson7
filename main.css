@@ -7,9 +7,7 @@ main {
     padding: 0;
     text-align: center;
     font-size: 0;
-   
-   
-
+    
 }
 .image1 {
     display: inline-block;
@@ -50,6 +48,19 @@ main {
     height: 421px;
     vertical-align: middle;
 }
+.image1:hover {
+    background:#0EC8CB;
+   }
+   .image2:hover {
+    background:#0EC8CB;
+   }
+   .image3:hover {
+    background:#0EC8CB;
+   }
+   .image4:hover {
+    background:#0EC8CB;
+   }
+
 .anchor, .diamond, .eyeglasses, .monitor {
     padding: 56px;
 }
