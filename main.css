@@ -9,7 +9,7 @@ main {
     font-size: 0;
     
 }
-.image1 {
+.image1, .image2, .image3, .image4  {
     display: inline-block;
     border: 2px solid red;
     box-sizing: border-box;
@@ -19,38 +19,16 @@ main {
     vertical-align: middle;
 }
 
-.image2 {
-    display: inline-block;
-    border: 2px solid red;
-    box-sizing: border-box;
-    font-size: x-large;
-    width: 236px;
-    height: 421px;
-    vertical-align: middle;
-    
-}
-.image3 {
-    display: inline-block;
-    border: 2px solid red;
-    box-sizing: border-box;
-    font-size: x-large;
-    width: 236px;
-    height: 421px;
-    vertical-align: middle;
-   
-    }
-.image4 {
-    display: inline-block;
-    border: 2px solid red;
-    box-sizing: border-box;
-    font-size: x-large;
-    width: 236px;
-    height: 421px;
-    vertical-align: middle;
-}
+
 .image1:hover {
     background:#0EC8CB;
+   color: white;
    }
+   .image1_1:hover {
+    background:#0EC8CB;
+    display: inline-block;
+   }
+
    .image2:hover {
     background:#0EC8CB;
    }
