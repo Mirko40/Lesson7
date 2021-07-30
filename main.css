@@ -9,40 +9,105 @@ main {
     font-size: 0;
     
 }
-.image1, .image2, .image3, .image4  {
+.image1 {
     display: inline-block;
     border: 2px solid red;
     box-sizing: border-box;
-    font-size: x-large;
     width: 236px;
     height: 421px;
     vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(Foto/Anchor.png);
+    background-position: 84px 57px;
+    color: #777777;
+    
+}
+.text1 {
+    margin-top: 226px;
+   
+font-size: 14px;
+line-height: 22px;
+font-weight: 400;
+font-family: "PT Sans";
+text-align: center;
 }
 
 
 .image1:hover {
     background:#0EC8CB;
    color: white;
+  
+   background-image: url(Foto/Anchor_w.png);
+   background-repeat: no-repeat;
+   background-position: 84px 57px;
+   cursor:pointer;
+   
    }
-   .image1_1:hover {
-    background:#0EC8CB;
+   .image2 {
     display: inline-block;
-   }
-
-   .image2:hover {
-    background:#0EC8CB;
-   }
-   .image3:hover {
-    background:#0EC8CB;
-   }
-   .image4:hover {
-    background:#0EC8CB;
-   }
-
-.anchor, .diamond, .eyeglasses, .monitor {
-    padding: 56px;
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 236px;
+    height: 421px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(Foto/Diamond.png);
+    background-position: 84px 57px;
+    color: #777777;
 }
-
+.image2:hover {
+    background:#0EC8CB;
+   color: white;
+  
+   background-image: url(Foto/Diamond_w.png);
+   background-repeat: no-repeat;
+   background-position: 84px 57px;
+   cursor:pointer;
+   
+   }
+   .image3 {
+    display: inline-block;
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 236px;
+    height: 421px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(Foto/Eyeglasses.png);
+    background-position: 84px 57px;
+    color: #777777;
+}
+.image3:hover {
+    background:#0EC8CB;
+   color: white;
+  
+   background-image: url(Foto/Eyeglasses_w.png);
+   background-repeat: no-repeat;
+   background-position: 84px 57px;
+   cursor:pointer;
+   }
+   .image4 {
+    display: inline-block;
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 236px;
+    height: 421px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(Foto/Monitor.png);
+    background-position: 84px 57px;
+    color: #777777;
+}
+.image4:hover {
+    background:#0EC8CB;
+   color: white;
+  
+   background-image: url(Foto/Monitor_w.png);
+   background-repeat: no-repeat;
+   background-position: 84px 57px;
+   cursor:pointer;
+   } 
+ 
 h4 {
     border: 2px solid red;
     padding: 0px;
