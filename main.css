@@ -11,13 +11,14 @@ main {
 }
 .image1 {
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     width: 236px;
     height: 421px;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-image: url(Foto/Anchor.png);
+    background-color: #F7F7F7;
     background-position: 84px 57px;
     color: #777777;
     
@@ -31,35 +32,58 @@ font-weight: 400;
 font-family: "PT Sans";
 text-align: center;
 }
-.head {
+.head1 {
     font-size: 21px;
-    
+    color: black;
     font-weight: 400;
     font-family: "Montserrat";
     text-align: center;
-    margin-top: 177px;  
+    margin-top: 177px; 
+    text-transform: uppercase;
+    width: 165px;
+    margin-left: auto;
+margin-right: auto;
+     
+}
+.head2 {
+    font-size: 21px;
+    color: black;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 168px; 
+    text-transform: uppercase;
+    width: 165px;
+    margin-left: auto;
+margin-right: auto;
+     
 }
 
 
-.image1:hover {
+.image1:hover  {
     background:#0EC8CB;
    color: white;
   
    background-image: url(Foto/Anchor_w.png);
+   
    background-repeat: no-repeat;
    background-position: 84px 57px;
    cursor:pointer;
-   
    }
+   .image1:hover > .head1 {
+    color: white;  
+   }
+   
    .image2 {
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     width: 236px;
     height: 421px;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-image: url(Foto/Diamond.png);
+    background-color: #F7F7F7;
     background-position: 84px 57px;
     color: #777777;
 }
@@ -71,17 +95,22 @@ text-align: center;
    background-repeat: no-repeat;
    background-position: 84px 57px;
    cursor:pointer;
-   
+}
+   .image2:hover > .head2 {
+    color: white;  
    }
+   
+   
    .image3 {
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     width: 236px;
     height: 421px;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-image: url(Foto/Eyeglasses.png);
+    background-color: #F7F7F7;
     background-position: 84px 57px;
     color: #777777;
 }
@@ -94,15 +123,20 @@ text-align: center;
    background-position: 84px 57px;
    cursor:pointer;
    }
+
+   .image3:hover > .head1 {
+    color: white;  
+   }
    .image4 {
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     width: 236px;
     height: 421px;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-image: url(Foto/Monitor.png);
+    background-color: #F7F7F7;
     background-position: 84px 57px;
     color: #777777;
 }
@@ -115,7 +149,9 @@ text-align: center;
    background-position: 84px 57px;
    cursor:pointer;
    } 
- 
+   .image4:hover > .head1 {
+    color: white;  
+   }
 h4 {
     border: 2px solid red;
     padding: 0px;
