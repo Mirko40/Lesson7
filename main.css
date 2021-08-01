@@ -87,6 +87,11 @@ line-height: 22px;
 font-weight: 400;
 font-family: "PT Sans";
 text-align: center;
+box-sizing: border-box;
+    width: 174px;
+    height: 101px;
+    margin-left: auto;
+margin-right: auto;
 }
 .head1 {
     font-size: 21px;
