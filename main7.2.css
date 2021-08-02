@@ -1,0 +1,126 @@
+* { transition: all .1s ease-in;}
+
+  body {
+       margin: 0;
+       padding: 0;
+       background:#3399CC ;
+       border: 15px solid #2B81AC;
+       display:block;
+       max-width: 1980px;
+       max-height: 1080px;
+       width: 80%;
+       height: 100%;
+       text-align: center;
+       vertical-align: middle;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    header {
+       color: white;
+       font-size: 40px;
+       padding: 0;
+       float: left;
+       margin-left: 225px;
+       margin-top: 20px;
+    }
+   main {
+    padding: 0;
+        font-size: 0;
+    box-sizing: content-box;
+    width: 70%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    margin-top: 100px;
+    margin-bottom: 150px;
+       }
+   
+   ul {
+    list-style-type: none;
+    padding: 0;
+    font-size:0;
+    margin:0;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    
+   }
+   li {
+    display:inline-block;
+    box-sizing: content-box;
+    border: 2px solid white;
+    padding-top: 20px;
+    height:120px;
+    font-size: 30px;
+    color: white;
+    margin:0;
+    text-align: center;
+    vertical-align: middle;
+    
+   }
+   .w11 {
+    width: 49.5%;
+    background: #3399CC;
+      
+   }
+   
+   
+     .w12 {
+    width: 24.6%;
+    background: #33CCCC;   
+   }
+   .w13 {
+    width: 24.6%;
+    background: #996699;   
+   }
+   .w21 {
+    width: 24.6%;
+    background: #C24747;   
+   }
+   .w22 {
+      width: 24.6%;
+      background: #E2674A;       
+   }
+   .w23 {
+      width: 24.6%; 
+      background:#FFCC66;     
+   }
+   .w24 {
+      width: 24.6%; 
+      background: #99CC99;     
+   }
+   .w31 {
+      /* float: left; */
+      width: 24.7%; 
+      background:#669999;  
+     }
+     .w32 {
+      /* float: left; */
+      width: 49.4%;
+      background: #CC6699;   
+     }
+     .w33 {
+      /* float: left; */
+      width: 24.7%;
+      background: #339966;   
+     } 
+     .w41 {
+      /* float: left; */
+      width: 99.5%;
+       background: #666699;
+   }
+
+
+   li:hover {
+opacity: 0.5;
+}
+footer {
+   color: white;
+       font-size: 25px;
+       padding: 0;
+       float: left;
+       margin-left: 225px;
+       margin-top: -100px;
+}
