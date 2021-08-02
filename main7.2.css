@@ -113,9 +113,17 @@
    }
 
 
-   ul:hover {
+ .w11:hover~li{
 opacity: 0.5;
 }
+.w12:hover~li{
+   opacity: 0.5;
+   }
+   .w13:hover~li{
+      opacity: 0.5;
+      }
+
+
 footer {
    color: white;
        font-size: 25px;
