@@ -62,11 +62,8 @@
    .w11 {
     width: 50%;
     background: #3399CC;
-      
    }
-   
-   
-     .w12 {
+   .w12 {
     width: 25%;
     background: #33CCCC;   
    }
@@ -91,39 +88,63 @@
       background: #99CC99;     
    }
    .w31 {
-      /* float: left; */
       width: 25%; 
       background:#669999;  
      }
      .w32 {
-      /* float: left; */
       width: 50%;
       background: #CC6699;   
      }
      .w33 {
-      /* float: left; */
       width: 25%;
       background: #339966;   
      } 
      .w41 {
-      /* float: left; */
-      width: 100%;
+       width: 100%;
        background: #666699;
    }
 
-
-
-
-   .w11:hover~li{
-      opacity: 0.5;
-      }
-   .w12 li {
-      order: -1;
+ 
+  
+   .w11:hover {
+      opacity: 1;
+   } 
+   .w12:hover {
+      opacity: 1;
+   }   
+    
+   .w13:hover {
+      opacity: 1;
    }
-      .w12:hover~li {
-         opacity: 0.5;
-         }
-
+   .w21:hover {
+      opacity: 1;
+   } 
+   .w22:hover {
+      opacity: 1;
+   }   
+    
+   .w23:hover {
+      opacity: 1;
+   }
+   .w24:hover {
+      opacity: 1;
+   }
+   .w31:hover {
+      opacity: 1;
+   } 
+   .w32:hover {
+      opacity: 1;
+   }   
+    
+   .w33:hover {
+      opacity: 1;
+   }
+   .w41:hover {
+      opacity: 1;
+   } 
+   main:hover li {
+      opacity: 0.5;
+   }
 footer {
    color: white;
        font-size: 40px;
